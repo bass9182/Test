@@ -6,3 +6,12 @@ D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfoI
 D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfo.cs
 D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.dll
 D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.pdb
+D:\Test_new\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.deps.json
+D:\Test_new\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.dll
+D:\Test_new\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.pdb
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.csprojAssemblyReference.cache
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.csproj.CoreCompileInputs.cache
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfoInputs.cache
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfo.cs
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.dll
+D:\Test_new\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.pdb

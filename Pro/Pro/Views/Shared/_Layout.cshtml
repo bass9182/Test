@@ -19,11 +19,15 @@
             <a class="navbar-item" href="https://bulma.io">
             </a>
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu bg-color is-mobile">
+            <div class="navbar-start">
+            </div>
         </div>
     </nav>
     <div class="columns background">
@@ -34,7 +38,7 @@
                     <div class="has-text-white">
                         <div class="txt-head" style="background:black"></div>
                         <li class="menu-list">
-                            <a href="#/LogError" class="has-text-white">
+                            <a href="/Home/Index" class="has-text-white">
                                 <div class="txt-padding"></div>
                             </a>
                         </li>
@@ -45,7 +49,7 @@
         @*ขวา*@
         <div class="column is-four-fifths">
             <div class="">
-                <section id="app" class="section"></section>@RenderBody()
+                <section id="app" class="section"></section>
             </div>
         </div>
     </div>
@@ -160,7 +164,23 @@
     <environment include="Development">
         <script src="~/js/all.js"></script>
         <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/vue.js"></script>
+        <script src="~/js/buefy.js"></script>
     </environment>
+
+    <script>
+        $(document).ready(function () {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function () {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+        });
+    </script>
 
     @RenderSection("Scripts", required: false)
 </body>
