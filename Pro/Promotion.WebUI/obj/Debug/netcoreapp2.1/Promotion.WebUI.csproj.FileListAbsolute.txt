@@ -1,0 +1,8 @@
+D:\Git\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.deps.json
+D:\Git\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.dll
+D:\Git\Pro\Promotion.WebUI\bin\Debug\netcoreapp2.1\Promotion.WebUI.pdb
+D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.csproj.CoreCompileInputs.cache
+D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfoInputs.cache
+D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.AssemblyInfo.cs
+D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.dll
+D:\Git\Pro\Promotion.WebUI\obj\Debug\netcoreapp2.1\Promotion.WebUI.pdb
