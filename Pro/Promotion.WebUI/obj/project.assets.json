@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Promotion\\Pro\\Promotion.WebUI\\Promotion.WebUI.csproj",
+      "projectUniqueName": "D:\\Test_new\\Pro\\Promotion.WebUI\\Promotion.WebUI.csproj",
       "projectName": "Promotion.WebUI",
-      "projectPath": "D:\\Work\\Promotion\\Pro\\Promotion.WebUI\\Promotion.WebUI.csproj",
+      "projectPath": "D:\\Test_new\\Pro\\Promotion.WebUI\\Promotion.WebUI.csproj",
       "packagesPath": "C:\\Users\\Piyachat Cheunchu\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Promotion\\Pro\\Promotion.WebUI\\obj\\",
+      "outputPath": "D:\\Test_new\\Pro\\Promotion.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

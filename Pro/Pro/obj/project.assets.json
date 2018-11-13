@@ -12225,11 +12225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Promotion\\Pro\\Pro\\Promotion.Webapp.csproj",
+      "projectUniqueName": "D:\\Test_new\\Pro\\Pro\\Promotion.Webapp.csproj",
       "projectName": "Promotion.Webapp",
-      "projectPath": "D:\\Work\\Promotion\\Pro\\Pro\\Promotion.Webapp.csproj",
+      "projectPath": "D:\\Test_new\\Pro\\Pro\\Promotion.Webapp.csproj",
       "packagesPath": "C:\\Users\\Piyachat Cheunchu\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Promotion\\Pro\\Pro\\obj\\",
+      "outputPath": "D:\\Test_new\\Pro\\Pro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

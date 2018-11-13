@@ -26,15 +26,136 @@
             </a>
         </div>
     </nav>
-    <div class="columns">
-        <div class="column is-one-fifth has-background-black ">
-            <aside class="menu is-fullheight "></aside>
+    <div class="columns background">
+        @*ซ้าย*@
+        <div class="column is-one-fifth">
+            <aside class="menu aside hero is-fullheigth bg-color">
+                <ul>
+                    <div class="has-text-white">
+                        <div class="txt-head" style="background:black"></div>
+                        <li class="menu-list">
+                            <a href="#/LogError" class="has-text-white">
+                                <div class="txt-padding"></div>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </aside>
+        </div>
+        @*ขวา*@
+        <div class="column is-four-fifths">
+            <div class="">
+                <section id="app" class="section"></section>@RenderBody()
+            </div>
         </div>
     </div>
 
 
 
     @RenderBody()
+
+    <style>
+
+        .user-icon {
+            font-size: 13px;
+        }
+
+        log-position {
+            text-align: center;
+        }
+
+
+        .background {
+            background-color: #f5f5f5;
+            min-height: 100%;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* needed for container min-height */
+        }
+
+        .transparent_btn {
+            display: inline-block;
+            padding: 10px 14px;
+            color: #FFF;
+            border: 1px solid #424F60;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 120%;
+            background-color: rgba(255,255,255, 0);
+            -webkit-transition: background-color 300ms ease;
+            -moz-transition: background-color 300ms ease;
+            transition: background-color 300ms ease;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        .icon-flipped {
+            transform: scaleX(-1);
+            -moz-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            -ms-transform: scaleX(-1);
+            color: black;
+            font-size: 13px;
+        }
+
+        .txt-padding {
+            padding-left: 40%;
+            font-size: 20px;
+            font-family: 'DB-Heavent';
+        }
+
+        .txt-head {
+            font-size: 22px;
+            text-align: center;
+            font-family: 'DB-Heavent';
+            padding-top: inherit;
+        }
+
+        .menu-list a:hover {
+            background-color: #26486c !important;
+            color: grey;
+        }
+
+        .bg-color {
+            background-color: black;
+            min-height: 100%;
+        }
+
+        @@font-face {
+            font-family: 'DB-Heavent';
+            src: url('../../static/fonts/DB-Heavent.ttf') format('truetype');
+        }
+
+        button .i {
+            font-family: DB-Heavent;
+            color: green;
+        }
+
+        .menu-list li {
+            font-family: 'DB-Heavent';
+        }
+
+
+
+        @@media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+
+        .aside-padding {
+            padding-left: 5%;
+        }
+    </style>
 
     <environment include="Development">
         <script src="~/js/all.js"></script>
